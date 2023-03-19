@@ -1,0 +1,29 @@
+{
+  "name": "bill-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@axenda/zatca": "^1.0.4",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "generate-api-key": "^1.0.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.2.0",
+    "mongoose-sequence": "^5.3.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.1"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
